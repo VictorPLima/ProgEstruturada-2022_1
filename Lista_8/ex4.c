@@ -60,4 +60,8 @@ int main(void){
 
     printf("\nMedia do tamanho dos nomes = %.2f", media);
     printf("\nVariancia do tamanho dos nomes = %.2f", variancia);
+
+    free(nomes);
+
+    return 0;
 }
