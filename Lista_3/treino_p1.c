@@ -10,7 +10,8 @@ void troca(int *pa, int *pb){
 int main(void){
     int i, qtd_nomes=3;
     char **nomes;
-    char strl = 10;
+    int strl = 10;
+    
     nomes = (char **) malloc(qtd_nomes*sizeof(char *));
     if(nomes == NULL) printf("MEMORIA INSUFICIENTE");
     for(i=0;i<qtd_nomes;i++){
